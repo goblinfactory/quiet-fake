@@ -20,54 +20,68 @@ Target "Clean" (fun _ ->
     CleanDir buildDir
 )
 
-Target "A1" (fun _ ->
+let A1 =
+    printfn "one"
     ()
-)
 
-Target "A2" (fun _ ->
+let A2 = 
+    printfn "two"
     ()
-)
 
-Target "A3" (fun _ ->
+let A3 = 
+    printfn "three"
     ()
-)
 
-Target "A4" (fun _ ->
+let A4 = 
+    printfn "four"
     ()
-)
 
-Target "A5" (fun _ ->
+let A5 = 
+    printfn "five"
     ()
-)
 
-Target "A6" (fun _ ->
+let A6 = 
+    printfn "six"
     ()
-)
 
-Target "A7" (fun _ ->
+let A7 = 
+    printfn "seven"
     ()
-)
 
-Target "A8" (fun _ ->
+let A8 =
+    printfn "eight"
     ()
-)
 
-Target "A9" (fun _ ->
+let A9 = 
+    printfn "nine"
     ()
-)
 
-
-Target "A10" (fun _ ->
+let A10 =
+    printfn "ten"
     ()
-)
 
 Target "Even" (fun _ ->
-    printfn "Even numbers finished!"
+    A2
+    A4
+    A6
+    A8
+    A10
 )
 
 Target "Odd" (fun _ ->
-    printfn "Odd numbers finished!"
+    A1
+    A3
+    A5
+    A7
+    A9
 )
+
+Target "Some" (fun _ ->
+    A1
+    A6
+    A7
+)
+
 
 Target "Some" (fun _ ->
     printfn "Some numbers finished!"
@@ -81,26 +95,16 @@ Target "Build" (fun _ ->
 
 // dependancies
 "Clean"
-  ==> "A2"
-  ==> "A4"
-  ==> "A6"
-  ==> "A8"
-  ==> "A10"
   ==> "Even"
+  ==> "EvenBuild"
 
 "Clean"
-  ==> "A1"
-  ==> "A3"
-  ==> "A5"
-  ==> "A7"
-  ==> "A9"
   ==> "Odd"
-
+  ==> "OddBuild"
 
 "Clean"
-  ==> "A5"
-  ==> "A6"
   ==> "Some"
+  ==> "SomeBuild"
 
-RunTargetOrDefault "Even"
+RunTargetOrDefault "EvenBuild"
 
