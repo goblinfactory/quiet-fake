@@ -6,7 +6,7 @@ My experiment to get a human readable build logfile showing only results or erro
 $ git clone https://github.com/goblinfactory/quiet-fake.git
 $ qbuild.bat
 ```
-Decent 'human readable' logfile is created in ``Testfake_build.log`` e.g.
+Decent 'human readable' logfile is created in ``Testfake_build.log`` e.g. below is the whole 'minimal' logfile that get's created for the checked in project as it is. It's checked in with a '}' commented out so the build will fail. This is as aposed to the many reams (pages) of verbose output you get by default, that no human can read.
 ```
   TestFake.Lib -> D:\spikes\TestFake\TestFake.Lib\bin\Release\TestFake.Lib.dll
 Program.cs(17,6): error CS1513: } expected [D:\spikes\TestFake\TestFake.Console\TestFake.Console.csproj]
