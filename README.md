@@ -62,8 +62,9 @@ Program.cs(17,6): error CS1513: } expected [D:\spikes\TestFake\TestFake.Console\
   TestFake.Lib.Tests -> D:\git-alan\quiet-fake\TestFake.Lib.Test\bin\Release\TestFake.Lib.Test.dll
 
 ```
-###Sample awful (mostly-useless) log that Fake generates
-https://github.com/goblinfactory/quiet-fake/blob/master/awful.log
+###Sample log that Fake generates
+For small projects, a human can read these, but for larger projects, this is unmanageable.
+https://github.com/goblinfactory/quiet-fake/blob/master/standard-fake-build.log
 
 ##References
 - http://fsharp.github.io/FAKE/apidocs/fake-msbuildhelper.html
