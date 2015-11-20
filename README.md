@@ -62,6 +62,8 @@ Program.cs(17,6): error CS1513: } expected [D:\spikes\TestFake\TestFake.Console\
   TestFake.Lib.Tests -> D:\git-alan\quiet-fake\TestFake.Lib.Test\bin\Release\TestFake.Lib.Test.dll
 
 ```
+###Sample awful (mostly-useless) log that Fake generates
+[(insert link after I have the url)]
 
 ##References
 - http://fsharp.github.io/FAKE/apidocs/fake-msbuildhelper.html
