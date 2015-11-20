@@ -12,7 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{40D3DC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{06C682ED-0F27-4A28-B54F-83E394A7CB3C}"
 	ProjectSection(SolutionItems) = preProject
+		build-numbers.bat = build-numbers.bat
+		build.bat = build.bat
 		build-scripts\build.fsx = build-scripts\build.fsx
+		build-scripts\numbers.fsx = build-scripts\numbers.fsx
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFake.Console", "TestFake.Console\TestFake.Console.csproj", "{CDB2EF3D-B952-4E9E-A539-B23EF3B5CEBC}"
