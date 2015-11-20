@@ -1,1 +1,2 @@
-packages\fake.4.8.0\tools\fake.exe build-scripts\build.fsx %1
+cls
+packages\fake.4.8.0\tools\fake.exe build-scripts\numbers.fsx %1

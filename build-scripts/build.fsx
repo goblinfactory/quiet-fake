@@ -26,14 +26,6 @@ Target "QuietBuild" (fun _ ->
       |> Log "AppBuild-Quiet-Output: "
 )
 
-// dependancies
-"Clean"
- ==> "Default"
- ==> "Build"
-
-"Clean"
- ==> "Default"
- ==> "QuietBuild"
 
 
 let loggerConfig : list<MSBuildFileLoggerConfig> = [
@@ -62,19 +54,17 @@ let setParams defaults =
           ]
      }
 
-//let setParams defaults =
-//        { defaults with
-//            Verbosity = Some(Quiet)
-//            Targets = ["Build"]
-//            Properties =
-//                [
-//                    "Optimize", "True"
-//                    "DebugSymbols", "True"
-//                    "Configuration", buildMode
-//                ]
-//         }
 
 build setParams "./TestFake.sln"
       |> DoNothing
 
 RunTargetOrDefault "QuietBuild"
+
+// dependancies
+"Clean"
+ ==> "Default"
+ ==> "Build"
+
+"Clean"
+ ==> "Default"
+ ==> "QuietBuild"
