@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFake.Lib.Tests", "TestFake.Lib.Test\TestFake.Lib.Tests.csproj", "{28090E0E-0D63-419A-B470-7CBBA3CEDC49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{40D3DCF8-0CE1-4233-B14A-982EAF75954A}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{06C682ED-0F27-4A28-B54F-83E394A7CB3C}"
+	ProjectSection(SolutionItems) = preProject
+		build-scripts\build.fsx = build-scripts\build.fsx
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFake.Console", "TestFake.Console\TestFake.Console.csproj", "{CDB2EF3D-B952-4E9E-A539-B23EF3B5CEBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFake.Lib", "TestFake.Lib\TestFake.Lib.csproj", "{381CE7A7-A1E5-4EC7-90DF-F85E2355CF95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28090E0E-0D63-419A-B470-7CBBA3CEDC49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28090E0E-0D63-419A-B470-7CBBA3CEDC49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28090E0E-0D63-419A-B470-7CBBA3CEDC49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28090E0E-0D63-419A-B470-7CBBA3CEDC49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDB2EF3D-B952-4E9E-A539-B23EF3B5CEBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDB2EF3D-B952-4E9E-A539-B23EF3B5CEBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDB2EF3D-B952-4E9E-A539-B23EF3B5CEBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDB2EF3D-B952-4E9E-A539-B23EF3B5CEBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{381CE7A7-A1E5-4EC7-90DF-F85E2355CF95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{381CE7A7-A1E5-4EC7-90DF-F85E2355CF95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{381CE7A7-A1E5-4EC7-90DF-F85E2355CF95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{381CE7A7-A1E5-4EC7-90DF-F85E2355CF95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
