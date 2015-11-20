@@ -6,7 +6,7 @@ Rough spike to get a more readable build logfile showing only results or errors.
 $ git clone https://github.com/goblinfactory/quiet-fake.git
 $ qbuild.bat
 ```
-Decent 'human readable' logfile is created in ``Testfake_build.log`` e.g. below is the whole 'minimal' logfile that gets created for the checked in project as it is. It's checked in with a '}' commented out so the build will fail. This is  opposed to the many reams (pages) of verbose output you get by default, that no human can read.
+Decent 'human readable' logfile is created in ``Testfake_build.log`` e.g. below is the whole 'minimal' logfile that gets created for the checked in project as it is. It's checked in with a '}' commented out so the build will fail. This is  opposed to the many reams (pages) of verbose output you get by default, that no human can read on anything other than the most basic multi-project solutions.
 
 ##Sample compile error fake build output
 ```
