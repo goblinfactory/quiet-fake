@@ -73,4 +73,4 @@ https://github.com/goblinfactory/quiet-fake/blob/master/standard-fake-build.log
 - http://fsharp.github.io/FAKE/gettingstarted.html
 
 ###TODO
-Still need to update the test fsk make files to do full builds with some options, e.g. dev build (only unit tests) and 'CI' build running slower tests, with suitable 'easy to read' console output as well as logfiles.
+Still need to update the test fsx make files to do full builds with some options, e.g. dev build (only unit tests) and 'CI' build running slower tests, with suitable 'easy to read' console output as well as logfiles.
