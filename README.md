@@ -1,5 +1,5 @@
 # quiet-fake
-My experiment to get a human readable build logfile showing only results or errors. Really rough spike. I hope that this can be used as a easy to clone spike to test other options. 
+My experiment to get a human readable build logfile showing only results or errors. Really rough spike. I hope that this can be used as an easy to clone spike to test other options. 
 
 ###Usage:
 ```
