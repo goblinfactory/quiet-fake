@@ -71,6 +71,7 @@ https://github.com/goblinfactory/quiet-fake/blob/master/standard-fake-build.log
 - http://stackoverflow.com/questions/27384227/easiest-way-to-set-msbuild-logging-verbosity-in-fake
 - http://fsharp.github.io/FAKE/
 - http://fsharp.github.io/FAKE/gettingstarted.html
+- http://dungpa.github.io/fsharp-cheatsheet/
 
 ###TODO
 Still need to update the test fsx make files to do full builds with some options, e.g. dev build (only unit tests) and 'CI' build running slower tests, with suitable 'easy to read' console output as well as logfiles.
