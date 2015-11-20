@@ -63,7 +63,7 @@ Program.cs(17,6): error CS1513: } expected [D:\spikes\TestFake\TestFake.Console\
 
 ```
 ###Sample awful (mostly-useless) log that Fake generates
-[(insert link after I have the url)]
+https://github.com/goblinfactory/quiet-fake/blob/master/awful.log
 
 ##References
 - http://fsharp.github.io/FAKE/apidocs/fake-msbuildhelper.html
