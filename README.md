@@ -24,3 +24,6 @@ Program.cs(17,6): error CS1513: } expected [D:\spikes\TestFake\TestFake.Console\
   TestFake.Console -> D:\git-alan\quiet-fake\TestFake.Console\bin\Release\TestFake.Console.exe
   TestFake.Lib.Tests -> D:\git-alan\quiet-fake\TestFake.Lib.Test\bin\Release\TestFake.Lib.Test.dll
 ```
+##References
+- http://fsharp.github.io/FAKE/apidocs/fake-msbuildhelper.html
+- http://stackoverflow.com/questions/27384227/easiest-way-to-set-msbuild-logging-verbosity-in-fake
