@@ -1,5 +1,5 @@
 # quiet-fake
-experiment to get a human readable build logfile showing only results or errors
+My experiment to get a human readable build logfile showing only results or errors. Really rough spike. I hope that this can be used as a easy to clone spike to test other options. 
 
 ###Usage:
 ```
@@ -27,3 +27,6 @@ Program.cs(17,6): error CS1513: } expected [D:\spikes\TestFake\TestFake.Console\
 ##References
 - http://fsharp.github.io/FAKE/apidocs/fake-msbuildhelper.html
 - http://stackoverflow.com/questions/27384227/easiest-way-to-set-msbuild-logging-verbosity-in-fake
+
+###TODO
+Still need to update the test fsk make files to do full builds with some options, e.g. dev build (only unit tests) and 'CI' build running slower tests, with suitable 'easy to read' console output as well as logfiles.
