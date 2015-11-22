@@ -13,7 +13,10 @@ $ qbuild.bat
 ```
 Decent 'human readable' logfile is created in ``Testfake_build.log`` e.g. below is the whole 'minimal' logfile that gets created for the checked in project as it is. It's checked in with a '}' commented out so the build will fail. This is  opposed to the many reams (pages) of verbose output you get by default, that no human can read on anything other than the most basic multi-project solutions.
 
-##Sample compile error fake build output (draft 1, shortened)
+###Rationale
+If the build runs locally on your machine, you want to be able to instantly spot the error. 99% of the time, provided you are doing decent agile development with resonable acceptance tests, all you need is the simplest smallest error message and you know immediately what you did wrong. This project is about shortening the feedback cycle and making the build test an important development tool, and not a management 'requirement'.
+
+###Sample compile error fake build output (draft 1, shortened)
 ```
   TestFake.Lib -> D:\spikes\TestFake\TestFake.Lib\bin\Release\TestFake.Lib.dll
 Program.cs(17,6): error CS1513: } expected [D:\spikes\TestFake\TestFake.Console\TestFake.Console.csproj]
@@ -32,7 +35,7 @@ Program.cs(17,6): error CS1513: } expected [D:\spikes\TestFake\TestFake.Console\
   TestFake.Lib.Tests -> D:\git-alan\quiet-fake\TestFake.Lib.Test\bin\Release\TestFake.Lib.Test.dll
 ```
 
-##Desired Build Error output
+###Desired Build Error output
 ```
 Building projects; 
  - TestFake.Lib (ERROR)
@@ -46,7 +49,7 @@ Building projects;
 ```
 
 
-##Sample succesful compile output (draft 1, shortened)
+###Sample succesful compile output (draft 1, shortened)
 ```
 
   TestFake.Lib -> D:\git-alan\quiet-fake\TestFake.Lib\bin\Release\TestFake.Lib.dll
