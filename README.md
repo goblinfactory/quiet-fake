@@ -35,7 +35,7 @@ Program.cs(17,6): error CS1513: } expected [D:\spikes\TestFake\TestFake.Console\
 ##Desired Build Error output
 ```
 Building projects; 
- - TestFake.Lib
+ - TestFake.Lib (ERROR)
  - TestFake.Lib.Tests
  - TestFake.Console
 
