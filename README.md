@@ -1,6 +1,11 @@
 # quiet-fake
 Rough spike to get a more readable build logfile showing only results or errors. I hope that this can be used as an easy to clone spike to test other options, ideally a mix between the decent parts of the build output, timings etc, together with the brevity of the shorter output. (will look at that shortly.)
 
+What I'm busy with at the moment:
+- post build log formatting. Possibly use some form of log template fomatter, RazorLogs lol! The output below is not a huge improvement; I want to make it much better.
+- Test to make sure when complex builds fail, that the build fails fast. 
+- Test getting quicker (formatted [ with a format string ] ) after each project is built.
+ 
 ###Usage:
 ```
 $ git clone https://github.com/goblinfactory/quiet-fake.git
