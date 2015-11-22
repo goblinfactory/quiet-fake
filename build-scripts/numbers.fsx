@@ -82,8 +82,15 @@ Target "Some" (fun _ ->
     A7
 )
 
+Target "EvenBuild" (fun _ ->
+    printfn "Some numbers finished!"
+)
 
-Target "Some" (fun _ ->
+Target "OddBuild" (fun _ ->
+    printfn "Some numbers finished!"
+)
+
+Target "SomeBuild" (fun _ ->
     printfn "Some numbers finished!"
 )
 
