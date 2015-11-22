@@ -14,7 +14,7 @@ $ qbuild.bat
 Decent 'human readable' logfile is created in ``Testfake_build.log`` e.g. below is the whole 'minimal' logfile that gets created for the checked in project as it is. It's checked in with a '}' commented out so the build will fail. This is  opposed to the many reams (pages) of verbose output you get by default, that no human can read on anything other than the most basic multi-project solutions.
 
 ###Rationale
-If the build runs locally on your machine, you want to be able to instantly spot the error. 99% of the time, provided you are doing decent agile development with resonable acceptance tests, all you need is the simplest smallest error message and you know immediately what you did wrong. This project is about shortening the feedback cycle and making the build test an important development tool, and not a management 'requirement'.
+If the build runs locally on your machine, you want to be able to instantly spot the error. 99% of the time, provided you are doing decent agile development with resonable acceptance tests, all you need is the simplest smallest error message and you know immediately what you did wrong. This project is about shortening the feedback cycle and making the build test an important development tool.
 
 ###Sample compile error fake build output (draft 1, shortened)
 ```
