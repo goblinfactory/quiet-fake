@@ -13,7 +13,7 @@ $ qbuild.bat
 ```
 Decent 'human readable' logfile is created in ``Testfake_build.log`` e.g. below is the whole 'minimal' logfile that gets created for the checked in project as it is. It's checked in with a '}' commented out so the build will fail. This is  opposed to the many reams (pages) of verbose output you get by default, that no human can read on anything other than the most basic multi-project solutions.
 
-##Sample compile error fake build output
+##Sample compile error fake build output (draft 1, shortened)
 ```
   TestFake.Lib -> D:\spikes\TestFake\TestFake.Lib\bin\Release\TestFake.Lib.dll
 Program.cs(17,6): error CS1513: } expected [D:\spikes\TestFake\TestFake.Console\TestFake.Console.csproj]
@@ -46,7 +46,7 @@ Building projects;
 ```
 
 
-##Sample succesful compile output
+##Sample succesful compile output (draft 1, shortened)
 ```
 
   TestFake.Lib -> D:\git-alan\quiet-fake\TestFake.Lib\bin\Release\TestFake.Lib.dll
