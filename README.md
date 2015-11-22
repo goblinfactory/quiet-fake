@@ -32,6 +32,20 @@ Program.cs(17,6): error CS1513: } expected [D:\spikes\TestFake\TestFake.Console\
   TestFake.Lib.Tests -> D:\git-alan\quiet-fake\TestFake.Lib.Test\bin\Release\TestFake.Lib.Test.dll
 ```
 
+##Desired Build Error output
+```
+Building projects; 
+ - TestFake.Lib
+ - TestFake.Lib.Tests
+ - TestFake.Console
+
+ TestFake.Lib (ERROR)
+ ---------------------
+   Program.cs(17,6): error CS1513:  } expected 
+   
+```
+
+
 ##Sample succesful compile output
 ```
 
@@ -67,6 +81,16 @@ Program.cs(17,6): error CS1513: } expected [D:\spikes\TestFake\TestFake.Console\
   TestFake.Lib.Tests -> D:\git-alan\quiet-fake\TestFake.Lib.Test\bin\Release\TestFake.Lib.Test.dll
 
 ```
+
+##Desired Succesful build output
+```
+PROJECT BUILDS; 
+ - TestFake.Lib  (OK) 
+ - TestFake.Lib.Tests (OK)
+ - TestFake.Console (OK)
+ All projects built.
+```
+
 ###Sample log that Fake generates
 For small projects, a human can read these, but for larger projects, this is unmanageable.
 https://github.com/goblinfactory/quiet-fake/blob/master/standard-fake-build.log
